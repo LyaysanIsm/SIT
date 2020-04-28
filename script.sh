@@ -7,5 +7,3 @@ dnf install postgresql
 docker build -t sit -f dockerfile .
 systemctl stop postgresql-12
 docker run -it --name=containersit sit
-
-
